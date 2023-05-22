@@ -1,5 +1,7 @@
 (ns lein-app.car-budget)
 ;; --- SPECS ---
+
+; v1
 ; we have 3 different brands with different prices
 ; we have a coupon with % discount
 ; let the user input its budget and coupon
