@@ -6,6 +6,10 @@
 ; 1. print out info if the coupon is valid
 ; 2. find budget match (with applied coupon discount if applicable)
 
+;; v2
+; 1. support array of coupons
+; 2. support price ranges for brand
+
 (def cars [
            {:name "bmw" :price 60000}
            {:name "ferarri" :price 100000}
