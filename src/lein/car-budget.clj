@@ -8,6 +8,23 @@
 ; 1. print out info if the coupon is valid
 ; 2. find budget match (with applied coupon discount if applicable)
 
+;; example 1
+; ----------------------
+; (main 50000 "my_coupon")
+; COUPON VALID
+
+; bmw 	 48000.0
+; fiat 	 16000.0
+; ----------------------
+
+;; example 2
+; ----------------------
+; (main 50000 "my_??")
+; COUPON NOT VALID
+
+; fiat 	 20000.0
+; ----------------------
+
 ;; v1.5 (refactor and optimize the existing code)
 
 ;; v2
