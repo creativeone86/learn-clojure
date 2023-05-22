@@ -8,6 +8,8 @@
 ; 1. print out info if the coupon is valid
 ; 2. find budget match (with applied coupon discount if applicable)
 
+;; v1.5 (refactor and optimize the existing code)
+
 ;; v2
 ; 1. support array of coupons
 ; 2. support price ranges for brand
